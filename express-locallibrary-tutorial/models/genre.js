@@ -1,8 +1,8 @@
 let mongoose=require('mongoose');
 
-let Schema = new.Schema
+let Schema = mongoose.Schema
 
-let GenreSchema=new this.schema({
+let GenreSchema=new Schema({
     name:{type:String,
         required:true,
         min:3,
